@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #b9acac;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style the navigation */
+nav ul {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0);
+    margin: 10;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    color: rgba(255, 255, 255, 0);
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #100a0a; /* You can change this color code to any color you prefer */
+    text-decoration: none;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the image container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block; /* Display the images side by side */
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.image {
+    margin: 40px;
+    position: center;
+    overflow: hidden;
+    border-radius: 0px;
+    display: inline-block; /* Display the images side by side */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
